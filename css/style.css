@@ -50,3 +50,359 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.header {
+    padding: 30px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__link {
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #001C1C;
+}
+
+.header__link:hover {
+    color: #248888;
+}
+
+.header__img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__btn {
+    width: 190px;
+    height: 50px;
+    padding: 11px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px 2px 2px 2px;
+    opacity: 0px;
+    background: #FF2E4C;
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.hero {
+    padding-top: 30px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.hero__content {
+    padding-top: 50px;
+}
+
+.hero__title {
+    font-family: Play;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50.6px;
+    text-align: left;
+    color: #001C1C;
+}
+
+.hero__day {
+    font-family: Play;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    color: #607282;
+    margin-bottom: 15px;
+}
+
+.hero__card {
+    width: 290px;
+    height: 250vh;
+    top: 90px;
+    left: 310px;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    opacity: 0px;
+    background: #F0F6F6;
+}
+
+.hero__cart {
+    width: 250px;
+    height: 349px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero__image {
+    width: 250px;
+    height: 135px;
+    gap: 0px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px 1px 0px 1px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+
+.hero__name {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: left;
+    color: #607282;
+}
+
+.hero__sub-title {
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    color: #001C1C;
+    margin-bottom: 15px;
+}
+
+.hero__block {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 5px;
+}
+
+.hero__text {
+    font-family: Play;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #607282;
+}
+
+.hero__btn {
+    width: 65px;
+    height: 29px;
+    padding: 4px 8px 5px 8px;
+    gap: 8px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #607282;
+    font-family: Play;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #607282;
+}
+
+.hero__btn2 {
+    width: 37px;
+    height: 29px;
+    padding: 4px 8px 5px 8px;
+    gap: 10px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+    background: #607282;
+    font-family: Play;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero__btn3 {
+    width: 156px;
+    height: 50px;
+    padding: 11px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px 2px 2px 2px;
+    opacity: 0px;
+    background: #FFFFFF;
+}
+
+.hero__card2 {
+    width: 970px;
+    height: 570px;
+    padding: 20px 20px 20px 20px;
+    top: 130px;
+    left: 640px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #F0F6F6;
+}
+
+.hero__title2 {
+    font-family: Play;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50.6px;
+    text-align: left;
+    color: #248888;
+    margin-bottom: 15px;
+}
+
+.hero__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.hero__link {
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #001C1C;
+}
+
+.hero__link:hover {
+    color: #248888;
+}
+
+.hero__card3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero__cart2 {
+    width: 290px;
+    height: 339px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+
+}
+
+.hero__image {
+    width: 290px;
+    height: 185px;
+    gap: 0px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px 1px 0px 1px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+
+.hero__block2 {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin-bottom: 5px;
+}
+
+.hero__title3 {
+    font-family: Play;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #001C1C;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.hero__sub2-title {
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #001C1C;
+    margin-bottom: 15px;
+}
+
+.hero__sub-text {
+    width: 970px;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Play;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    color: #3C5858;
+    margin-bottom: 15px;
+}
+
+.hero__sub2-text {
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #3C5858;
+    margin-top: 15px;
+}
+
+.hero__sub3-title {
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #001C1C;
+}
+
+.hero__sub2-text {
+    width: 750px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #3C5858;
+    margin-bottom: 15px;
+}
+
+.hero__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
